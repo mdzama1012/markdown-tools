@@ -1,0 +1,22 @@
+{
+  "name": "@repo/rabbitmq",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "clean": "rm -r dist; rm -r node_modules"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/node": "^24.10.4",
+    "@types/amqplib": "^0.10.8",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "amqplib": "^0.10.9"
+  }
+}
