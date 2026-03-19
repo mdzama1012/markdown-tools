@@ -1,7 +1,7 @@
+import assert from 'assert';
 import { connectRabbitMQ, registerConsumer } from '@repo/rabbitmq';
 import { initPuppeteerInstance } from './config/puppeteer.js';
 import { pdfProcessing } from './handlers/pdf-processing.js';
-import assert from 'assert';
 
 async function startConsumer() {
   // connect to rabbitMQ server.

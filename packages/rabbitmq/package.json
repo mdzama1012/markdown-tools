@@ -9,10 +9,10 @@
     ".": "./src/index.ts"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
     "@types/node": "^24.10.4",
     "@types/amqplib": "^0.10.8",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "typescript": "latest"
   },
   "dependencies": {

@@ -30,7 +30,7 @@ export function publishMessage(content: Buffer) {
 
 export async function registerConsumer(
   queue: string,
-  onMessage: (msg: ConsumeMessage | null) => void
+  onMessage: (msg: ConsumeMessage | null) => void,
 ) {
   assert.ok(amqpChannel);
   assert.ok(amqpConnection);

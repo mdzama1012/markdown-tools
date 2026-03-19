@@ -13,6 +13,11 @@ const app = express();
 app.use(cors({ origin: ['http://localhost:5173'] }));
 app.use(express.json());
 
+// health checkpoint
+app.get('/_health', (_, res) => {
+  res.status(200).send('ok');
+});
+
 app.use('/api/v1/upload', uploadRouter);
 app.use('/api/v1/conversion', conversionRouter);
 
@@ -23,6 +28,6 @@ app.use('/api/v1/conversion', conversionRouter);
   await connectRabbitMQ();
 
   app.listen(+process.env.PORT, process.env.HOST, () =>
-    console.log(`RabbitMQ connected, Server running on port: ${process.env.PORT}`)
+    console.log(`RabbitMQ connected, Server running on port: ${process.env.PORT}`),
   );
 })();
