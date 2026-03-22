@@ -1,5 +1,5 @@
 export const GITHUB_MARKDOWN_CSS_CDN =
-  '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.css" integrity="sha512-Hasfm7Iv5AG2/v5DSRXetpC33VjyPBXn5giooMag2EgSbiJ2Xp4GGvYGKSvc68SiJIflF/WrbDFdNmtlZHE5HA==" crossorigin="anonymous" referrerpolicy="no-referrer" />';
+	'<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.css" integrity="sha512-Hasfm7Iv5AG2/v5DSRXetpC33VjyPBXn5giooMag2EgSbiJ2Xp4GGvYGKSvc68SiJIflF/WrbDFdNmtlZHE5HA==" crossorigin="anonymous" referrerpolicy="no-referrer" />';
 
 export const HIGHLIGHT_JS_CDN = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script><script>hljs.highlightAll();</script>`;
 
@@ -19,7 +19,7 @@ export const MARKDOWN_CLASS_CSS = `
   }`;
 
 export function sanitizeHtml(htmlBody: string, title: string) {
-  const html = `
+	const html = `
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -37,5 +37,5 @@ export function sanitizeHtml(htmlBody: string, title: string) {
       </body>
     </html>`;
 
-  return html;
+	return html;
 }

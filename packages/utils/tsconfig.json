@@ -1,15 +1,15 @@
 {
 	"extends": "@repo/typescript-config/base",
 	"compilerOptions": {
-		"rootDir": "src",
 		"outDir": "dist",
-		"tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+		"rootDir": "src",
+		"tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
 	},
 	"include": [
 		"src"
 	],
 	"exclude": [
-		"dist",
-		"node_modules"
+		"node_modules",
+		"dist"
 	]
 }

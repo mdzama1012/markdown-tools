@@ -1,20 +1,20 @@
 {
-  "version": "7",
-  "dialect": "postgresql",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "7",
-      "when": 1765485022648,
-      "tag": "0000_sour_ulik",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1765957328598,
-      "tag": "0001_peaceful_silver_sable",
-      "breakpoints": true
-    }
-  ]
+	"version": "7",
+	"dialect": "postgresql",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "7",
+			"when": 1765485022648,
+			"tag": "0000_sour_ulik",
+			"breakpoints": true
+		},
+		{
+			"idx": 1,
+			"version": "7",
+			"when": 1765957328598,
+			"tag": "0001_peaceful_silver_sable",
+			"breakpoints": true
+		}
+	]
 }

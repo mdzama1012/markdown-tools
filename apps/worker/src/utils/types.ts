@@ -1,4 +1,4 @@
 export type Job = {
-  jobId: string;
-  markdownFilekey: string;
+	jobId: string;
+	markdownFilekey: string;
 };
